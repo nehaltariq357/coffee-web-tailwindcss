@@ -5,7 +5,7 @@ const Contact = () => (
     <div className="max-w-2xl mx-5 h-[70vh] space-y-16 w-full bg-lightBrown p-8 rounded-lg shadow-lg">
       <h1 className="text-3xl font-bold text-center text-offwhite mb-4">Contact Us</h1>
       <p className="text-center text-white mb-6">
-        We love to hear from you! Please fill out the form below and we'll get in touch with you shortly.
+        We love to hear from you! Please fill out the form below and well get in touch with you shortly.
       </p>
       <form className="space-y-4">
         <input

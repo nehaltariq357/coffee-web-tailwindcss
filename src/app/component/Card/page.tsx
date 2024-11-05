@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Card = () => {
   return (
-    <div className="bg-offwhite py-8 flex text-white h-[100vh]">
+    <div className="bg-offwhite min-h-screen flex flex-col items-center justify-center text-white">
       <div className="mx-4 md:mx-16">
         <div className="flex items-center justify-center my-8 relative">
           <div className="flex-grow h-1 bg-Brown"></div>
@@ -13,8 +13,8 @@ const Card = () => {
           <div className="flex-grow h-1 bg-Brown"></div>
         </div>
 
-        {/* Card Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 md:px-0">
+        {/* Centered Card Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 md:px-0 items-center justify-center">
           {/** Card 1 */}
           <div className="bg-lightBrown h-auto p-4 flex flex-col items-center rounded-md shadow-md space-y-5">
             <Image

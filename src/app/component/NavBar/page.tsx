@@ -12,7 +12,7 @@ const NavBar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-10 font-semibold text-lg">
-          <li>Home</li>
+          <Link href="/"><li>Home</li></Link>
           <Link href="/component/Card"><li>Explore Us</li></Link>
           <Link href="/component/Brand"><li>Brands</li></Link>
           <Link href="/component/Contact"><li>Contact Us</li></Link>
@@ -44,17 +44,19 @@ const NavBar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <ul className="md:hidden flex flex-col items-center gap-4 p-4 text-lightBrown bg-offwhite shadow-md z-30">
-          <li>Home</li>
-          <li>Explore Us</li>
-          <li>Brands</li>
-          <li>Contact Us</li>
+          <Link href="/"><li>Home</li></Link>
+          <Link href="/component/Card"><li>Explore Us</li></Link>
+          <Link href="/component/Brand"><li>Brands</li></Link>
+          <Link href="/component/Contact"><li>Contact Us</li></Link>
           <div className="flex flex-col gap-2 mt-4">
+          <Link href="/component/Login">
           <button className="bg-Brown text-white px-10 md:px-5 py-2 md:py-3 text-lg  rounded-2xl">
             Login
-          </button>
+          </button></Link>
+          <Link href="/component/SignUp">
           <button className="bg-Brown text-white px-10 md:px-5 py-2 md:py-3 text-lg  rounded-2xl">
            Sign Up
-          </button>
+          </button></Link>
           </div>
         </ul>
       )}

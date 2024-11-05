@@ -7,7 +7,7 @@ const Brands = () => {
       <div className="mx-4 md:mx-16">
         <div className="flex justify-center items-center">
           <div className="flex-grow h-1 bg-Brown"></div>
-          <h1 className="text-Brown font-bold text-3xl px-4">
+          <h1 className="text-Brown font-bold text-3xl px-4 my-10 md:m-0">
             Brands we work with
           </h1>
           <div className="flex-grow h-1 bg-Brown"></div>

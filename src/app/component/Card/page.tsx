@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Card = () => {
   return (
-    <div className="bg-offwhite py-8 min-h-screen flex text-white">
+    <div className="bg-offwhite py-8 flex text-white h-[100vh]">
       <div className="mx-4 md:mx-16">
         <div className="flex items-center justify-center my-8 relative">
           <div className="flex-grow h-1 bg-Brown"></div>

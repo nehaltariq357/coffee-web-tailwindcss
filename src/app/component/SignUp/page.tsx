@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Login = () => (
-  <div className="bg-offwhite flex justify-center items-center min-h-screen py-8">
-    <div className="bg-lightBrown p-6 md:p-8 rounded-md shadow-md max-w-2xl w-full mx-4 space-y-14 h-[60vh] text-white">
+  <div className="bg-offwhite flex justify-center items-center h-screen py-8 pt-36">
+    <div className="bg-lightBrown p-6 md:p-8 rounded-md shadow-md max-w-2xl w-full mx-4 space-y-14 h-[70vh] text-white">
       <h1 className="text-2xl md:text-3xl font-bold text-center text-offwhite">Sign Up / Login</h1>
       <p className="text-center text-sm md:text-base">
         Create an account or log in to continue.

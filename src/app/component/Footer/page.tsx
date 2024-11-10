@@ -4,7 +4,7 @@ import { MdFacebook } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="bg-lightBrown text-offwhite h-auto py-8">
+    <footer className="bg-lightBrown text-offwhite py-8">
       <div className='mx-4 md:mx-16'>
         <div className="flex items-center justify-center my-8 relative">
           <div className="flex-grow h-1 bg-offwhite"></div>

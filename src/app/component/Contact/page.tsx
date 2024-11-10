@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Contact = () => (
-  <div className="bg-offwhite min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-    <div className="max-w-2xl mx-5 h-[80vh] space-y-16 w-full bg-lightBrown p-8 rounded-lg shadow-lg">
-      <h1 className="text-3xl font-bold text-center text-offwhite mb-4">Contact Us</h1>
-      <p className="text-center text-white mb-6">
-        We love to hear from you! Please fill out the form below and well get in touch with you shortly.
+  <div className="bg-offwhite min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 pt-40">
+    <div className="max-w-2xl w-full h-[80vh] bg-lightBrown p-8 rounded-lg shadow-lg space-y-8">
+      <h1 className="text-3xl font-bold text-center text-white">Contact Us</h1>
+      <p className="text-center text-offwhite mb-4">
+        We love to hear from you! Please fill out the form below, and well get in touch shortly.
       </p>
       <form className="space-y-4">
         <input

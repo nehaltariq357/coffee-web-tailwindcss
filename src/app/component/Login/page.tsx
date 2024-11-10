@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Login = () => (
-  <div className="bg-offwhite min-h-screen flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8">
+  <div className="bg-offwhite min-h-screen flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 pt-20">
     <div className="max-w-2xl h-[50vh] space-y-10 w-full bg-lightBrown p-6 rounded-lg shadow-lg">
       <h1 className="text-2xl font-bold text-center text-offwhite mb-4">Login</h1>
       <p className="text-center text-sm text-white mb-6">
